@@ -1,0 +1,60 @@
+@import url("https://fonts.cdnfonts.com/css/larsseit-font-family");
+
+:root {
+  --primaryColor: #01051b;
+  --secondaryColor: #072aee;
+  --tertiaryColor: #9c6ce8;
+  --footColor: #212320;
+  --footbgColor: #f8f8f8;
+  --iconColor: #656565;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primaryColor) transparent;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Larsseit Font Family", sans-serif;
+  /* background-color: #f5f5f5; */
+  background-color: white;
+  line-height: 1;
+}
+
+button {
+  background-color: var(--primaryColor);
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  width: 100px;
+}
+
+.icon {
+  background-color: var(--iconColor);
+  color: white;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,136 @@
+.homecontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 30px 50px;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.herocontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.learnmorebtn {
+  background-color: transparent;
+  border: 2px solid var(--primaryColor);
+  color: var(--primaryColor);
+  width: 120px;
+}
+
+.herobtn {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+#herotext {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#herotextdescription {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.gradienttext {
+  background: linear-gradient(
+    to right,
+    var(--secondaryColor) 0%,
+    var(--tertiaryColor) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.awardcontainergrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.awardcontainer {
+  background-color: var(--primaryColor);
+  height: 800px;
+  width: 900px;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 30px;
+}
+
+.empowertext {
+  font-size: 45px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.empowertextgradient {
+  background: linear-gradient(to right, white 0%, var(--primaryColor) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.boyimg {
+  background-image: url("../../assets/boywithphone.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.chatbtn {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.secondgrid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.secondgridfirstchild {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.secondgridfirstchild h3 {
+  line-height: 1.5;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.studentimg {
+  background-image: url("../../assets/students.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 53%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.studentimg h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
