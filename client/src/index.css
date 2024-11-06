@@ -7,6 +7,8 @@
   --footColor: #212320;
   --footbgColor: #f8f8f8;
   --iconColor: #656565;
+  --offwhiteColor: #fdfdfd;
+  --whitesmokeColor: #f5f5f5;
 }
 
 * {
@@ -22,6 +24,7 @@ li {
   text-decoration: none;
   list-style-type: none;
   cursor: pointer;
+  color: inherit;
 }
 
 body {

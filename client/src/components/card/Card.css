@@ -1,0 +1,29 @@
+.cardcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--footbgColor);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.cardcontainer h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--footColor);
+}
+
+.cardcontainer p {
+  font-size: 13px;
+  color: var(--iconColor);
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .cardcontainer {
+    max-width: 300px;
+  }
+}

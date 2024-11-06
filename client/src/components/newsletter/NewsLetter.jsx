@@ -17,7 +17,7 @@ export default function NewsLetter() {
         <form className="forminput">
           <input
             placeholder="Your email"
-            type="text"
+            type="email"
             name="newsletter"
             id="newsletter"
             required

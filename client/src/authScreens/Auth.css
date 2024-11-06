@@ -1,0 +1,160 @@
+.authcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 50px;
+}
+
+.registercontainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 900px;
+  background-color: var(--primaryColor);
+  border-radius: 20px;
+  padding: 25px;
+  height: 500px;
+}
+
+.registercontainerfirstgrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      to bottom right,
+      var(--tertiaryColor),
+      var(--secondaryColor)
+    ),
+    url("../assets/fabric.png"); /* Order matters: gradient goes first */
+  background-size: cover;
+  background-blend-mode: overlay;
+  padding: 30px;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.registercontainerfirstgrid h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--offwhiteColor);
+}
+
+.registercontainerfirstgrid h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--offwhiteColor);
+  text-align: center;
+}
+
+.registercontainerfirstgrid p {
+  font-size: 11px;
+  color: var(--whitesmokeColor);
+  text-align: center;
+}
+
+.registercontainersecondgrid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.registercontainersecondgrid h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--offwhiteColor);
+}
+
+.registercontainersecondgrid p {
+  font-size: 11px;
+  color: var(--whitesmokeColor);
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 50px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input input {
+  width: 100%;
+  padding: 8px 12px;
+  background-color: rgba(229, 230, 232, 0.1);
+  border: hidden;
+  outline: none;
+  border-radius: 5px;
+  color: var(--whitesmokeColor);
+  /* opacity: 0.8; */
+}
+
+.form-input input::placeholder {
+  color: var(--whitesmokeColor);
+  opacity: 0.5;
+}
+
+.form-input label {
+  font-size: 12px;
+  color: var(--whitesmokeColor);
+}
+
+.passwordinput {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(229, 230, 232, 0.1);
+  border: hidden;
+  outline: none;
+  border-radius: 5px;
+  color: var(--whitesmokeColor);
+}
+
+.passwordinput button {
+  background-color: transparent;
+  width: 25px;
+}
+
+.passwordinput input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  color: var(--whitesmokeColor);
+}
+
+.passwordcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.passwordcontainer label {
+  font-size: 12px;
+  color: var(--whitesmokeColor);
+}
+
+.registerbtn {
+  width: 100%;
+  background-color: var(--whitesmokeColor);
+  color: var(--primaryColor);
+}
+
+.googlebtn {
+  background-color: var(--whitesmokeColor);
+  color: var(--primaryColor);
+}
